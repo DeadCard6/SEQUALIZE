@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./principalStyle.css">
+    <title>Document</title>
+</head>
+<header>
+    <h1>Entrega Final CRUD</h1>
+    <nav>
+        <a href="./update.html">Actualiza tus Correo</a>
+        <a href="./Delete.html">Elimina tus datos</a>
+        <a href="./index.html">Home</a>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <h2>Actualizar Usuario</h2>
+        <p>Actualiza todos los campos rellenando el formulario, importante poner el Id</p>
+        <form id="updateAllForm">
+            <label for="updateId">ID del Usuario:</label>
+            <input type="text" id="updateId" name="updateId" required>
+            
+            <label for="updatePrimerApellido">Primer Apellido:</label>
+            <input type="text" id="updatePrimerApellido" name="updatePrimerApellido" required>
+
+            <label for="updateSegundoApellido">Segundo Apellido:</label>
+            <input type="text" id="updateSegundoApellido" name="updateSegundoApellido">
+
+            <label for="updatePrimerNombre">Primer Nombre:</label>
+            <input type="text" id="updatePrimerNombre" name="updatePrimerNombre" required>
+
+            <label for="updateSegundoNombre">Segundo Nombre:</label>
+            <input type="text" id="updateSegundoNombre" name="updateSegundoNombre">
+
+            <label for="updateEmail">Nuevo Email:</label>
+            <input type="email" id="updateEmail" name="updateEmail" required>
+
+            <button type="submit">Actualizar</button>
+        </form>
+    </div>
+    <script src="UpdateAllScript.js"></script>
+</body>
+<footer>
+    &copy; 2024 CRUD. Todos los derechos reservados.
+</footer>
+</html>

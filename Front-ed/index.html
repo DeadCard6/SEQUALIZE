@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="principalStyle.css">
+</head>
+<header>
+    <h1>Entrega Final CRUD</h1>
+        <nav>
+            <a href="./update.html">Actualiza tus Correo</a>
+            <a href="./Delete.html">Elimina tus datos</a>
+        </nav>
+</header>
+<body>
+    <main>
+        <div>
+            <h2>CRUD</h2>
+            <p>Gestione sus datos de manera fácil y rápida.</p>
+        </div>
+    </main>
+    <div class="container">
+        <h2>Formulario de Registro</h2>
+        <form id="createForm">
+            <label for="PrimerApellido">Primer Apellido:</label>
+            <input type="text" id="primerApellido" name="PrimerApellido" required>
+
+            <label for="SegundoApellido">Segundo Apellido:</label>
+            <input type="text" id="segundoApellido" name="SegundoApellido">
+
+            <label for="PrimerNombre">Primer Nombre:</label>
+            <input type="text" id="primerNombre" name="PrimerNombre" required>
+
+            <label for="SegundoNombre">Segundo Nombre:</label>
+            <input type="text" id="segundoNombre" name="SegundoNombre">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+<footer>
+    &copy; 2024 CRUD. Todos los derechos reservados.
+</footer>
+</html>
